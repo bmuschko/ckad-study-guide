@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rate-limiter
+spec:
+  containers:
+  - name: business-app
+    image: bmuschko/nodejs-business-app:1.0.0
+    ports:
+      - containerPort: 8080
+  - name: ambassador
+    image: bmuschko/nodejs-ambassador:1.0.0
+    ports:
+      - containerPort: 8081

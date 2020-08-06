@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-ambassador",
+  "version": "1.0.0",
+  "description": "Rate-limited access to external service",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.1.3"
+  }
+}

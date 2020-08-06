@@ -1,0 +1,8 @@
+{
+  "name": "nodejs-business-app",
+  "version": "1.0.0",
+  "description": "Business application talking to an ambassador container",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
