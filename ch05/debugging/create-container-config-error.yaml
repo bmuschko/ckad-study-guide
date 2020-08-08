@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: misbehaving-pod
+spec:
+  containers:
+    - name: app
+      image: busybox
+      command: ["/bin/sh", "-c", "env"]
+      env:
+        - name: MY_KEY
+          valueFrom:
+            configMapKeyRef:
+              name: my-config
+              key: my.key
