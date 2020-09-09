@@ -1,0 +1,20 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: current-date
+spec:
+  successfulJobsHistoryLimit: 5
+  failedJobsHistoryLimit: 3
+  schedule: "* * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: current-date
+            image: nginx
+            args:
+            - /bin/sh
+            - -c
+            - 'echo "Current date: $(date)"'
+          restartPolicy: OnFailure
