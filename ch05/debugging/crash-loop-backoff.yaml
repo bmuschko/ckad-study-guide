@@ -4,6 +4,6 @@ metadata:
   name: incorrect-cmd-pod
 spec:
   containers:
-    - name: test-container
-      image: busybox
-      command: ["/bin/sh", "-c", "unknown"]
+  - name: test-container
+    image: busybox
+    command: ["/bin/sh", "-c", "unknown"]
