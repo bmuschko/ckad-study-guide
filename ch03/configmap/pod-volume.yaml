@@ -4,12 +4,12 @@ metadata:
   name: configured-pod
 spec:
   containers:
-    - image: nginx:1.19.0
-      name: app
-      volumeMounts:
-        - name: config-volume
-          mountPath: /etc/config
-  volumes:
+  - image: nginx:1.19.0
+    name: app
+    volumeMounts:
     - name: config-volume
-      configMap:
-        name: backend-config
+      mountPath: /etc/config
+  volumes:
+  - name: config-volume
+    configMap:
+      name: backend-config

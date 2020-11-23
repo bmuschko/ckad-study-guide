@@ -1,15 +1,15 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: nginx1
 spec:
   containers:
-    - image: nginx:1.18.0
-      name: nginx
-      resources:
-        requests:
-          cpu: "0.5"
-          memory: "512m"
-        limits:
-          cpu: "1"
-          memory: "1024m"
+  - image: nginx:1.18.0
+    name: nginx
+    resources:
+      requests:
+        cpu: "0.5"
+        memory: "512m"
+      limits:
+        cpu: "1"
+        memory: "1024m"

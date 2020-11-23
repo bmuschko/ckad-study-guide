@@ -1,16 +1,16 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: fs-secured-pod
+  name: fs-secured
 spec:
   securityContext:
     fsGroup: 3500
   containers:
-    - image: nginx:1.18.0
-      name: secured-container
-      volumeMounts:
-      - name: data-volume
-        mountPath: /data/app
+  - image: nginx:1.18.0
+    name: secured-container
+    volumeMounts:
+    - name: data-volume
+      mountPath: /data/app
   volumes:
   - name: data-volume
     emptyDir: {}

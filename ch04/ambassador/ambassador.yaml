@@ -7,8 +7,8 @@ spec:
   - name: business-app
     image: bmuschko/nodejs-business-app:1.0.0
     ports:
-      - containerPort: 8080
+    - containerPort: 8080
   - name: ambassador
     image: bmuschko/nodejs-ambassador:1.0.0
     ports:
-      - containerPort: 8081
+    - containerPort: 8081

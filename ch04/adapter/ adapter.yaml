@@ -20,8 +20,8 @@ spec:
     - -c
     - 'sleep 20; while true; do while read LINE; do echo "$LINE" | cut -f2 -d"|" >> $(date +%Y-%m-%d-%H-%M-%S)-transformed.txt; done < /var/logs/diskspace.txt; sleep 20; done;'
     volumeMounts:
-      - name: config-volume
-        mountPath: /var/logs
-  volumes:
     - name: config-volume
-      emptyDir: {}
+      mountPath: /var/logs
+  volumes:
+  - name: config-volume
+    emptyDir: {}

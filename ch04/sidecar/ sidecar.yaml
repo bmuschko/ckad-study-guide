@@ -4,17 +4,17 @@ metadata:
   name: webserver
 spec:
   containers:
-    - name: nginx
-      image: nginx
-      volumeMounts:
-        - name: logs-vol
-          mountPath: /var/log/nginx
-    - name: sidecar
-      image: busybox
-      command: ["sh","-c","while true; do if [ \"$(cat /var/log/nginx/error.log | grep 'error')\" != \"\" ]; then echo 'Error discovered!'; fi; sleep 60; done"]
-      volumeMounts:
-        - name: logs-vol
-          mountPath: /var/log/nginx
-  volumes:
+  - name: nginx
+    image: nginx
+    volumeMounts:
     - name: logs-vol
-      emptyDir: {}
+      mountPath: /var/log/nginx
+  - name: sidecar
+    image: busybox
+    command: ["sh","-c","while true; do if [ \"$(cat /var/log/nginx/error.log | grep 'error')\" != \"\" ]; then echo 'Error discovered!'; fi; sleep 60; done"]
+    volumeMounts:
+    - name: logs-vol
+      mountPath: /var/log/nginx
+  volumes:
+  - name: logs-vol
+    emptyDir: {}
