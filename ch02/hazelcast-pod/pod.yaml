@@ -10,7 +10,7 @@ spec:
   - env:
     - name: DNS_DOMAIN
       value: cluster
-    image: hazelcast/hazelcast
+    image: hazelcast/hazelcast:5.1.7
     name: hazelcast
     ports:
     - containerPort: 5701
