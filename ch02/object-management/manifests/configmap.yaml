@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: logs-config
-data:
-  dir: "/etc/logs/traffic.log"
