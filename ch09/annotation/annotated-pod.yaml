@@ -8,5 +8,5 @@ metadata:
     branch: 'bm/bugfix'
 spec:
   containers:
-  - image: nginx
+  - image: nginx:1.25.1
     name: nginx

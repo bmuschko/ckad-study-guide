@@ -7,9 +7,10 @@ spec:
     spec:
       containers:
       - name: counter
-        image: nginx
+        image: nginx:1.25.1
         command:
         - /bin/sh
         - -c
-        - counter=0; while [ $counter -lt 3 ]; do counter=$((counter+1)); echo "$counter"; sleep 3; done;
+        - counter=0; while [ $counter -lt 3 ]; do counter=$((counter+1)); \
+          echo "$counter"; sleep 3; done;
       restartPolicy: Never

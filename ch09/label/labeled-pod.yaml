@@ -7,5 +7,5 @@ metadata:
     tier: backend
 spec:
   containers:
-  - image: nginx
+  - image: nginx:1.25.1
     name: nginx

@@ -5,7 +5,7 @@ metadata:
 spec:
   initContainers:
   - name: configurer
-    image: busybox:1.32.0
+    image: busybox:1.36.1
     command: ['sh', '-c', 'echo Configuring application... && mkdir -p /usr/shared/app && echo -e "{\"dbConfig\":{\"host\":\"localhost\",\"port\":5432,\"dbName\":\"customers\"}}" > /usr/shared/app/config.json']
     volumeMounts:
     - name: configdir

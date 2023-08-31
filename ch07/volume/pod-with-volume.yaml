@@ -7,7 +7,7 @@ spec:
   - name: logs-volume
     emptyDir: {}
   containers:
-  - image: nginx
+  - image: nginx:1.25.1
     name: nginx
     volumeMounts:
     - mountPath: /var/logs

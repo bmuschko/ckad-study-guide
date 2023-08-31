@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-deploy
+  name: app-cache
   labels:
-    app: my-deploy
+    app: app-cache
 spec:
-  replicas: 1
+  replicas: 4
   selector:
     matchLabels:
-      app: my-deploy
+      app: app-cache
   template:
     metadata:
       labels:
-        app: my-deploy
+        app: app-cache
     spec:
       containers:
-      - name: nginx
-        image: nginx:1.14.2
+      - name: memcached
+        image: memcached:1.6.8

@@ -12,7 +12,7 @@ spec:
         spec:
           containers:
           - name: current-date
-            image: nginx
+            image: nginx:1.25.1
             args:
             - /bin/sh
             - -c
