@@ -4,15 +4,11 @@ metadata:
   name: complex-pod
 spec:
   initContainers:
-  - image: busybox
+  - image: busybox:1.36.1
     name: setup
     command: ['sh', '-c', 'wget -O- google.com']
   containers:
-  - image: nginx
+  - image: nginx:1.25.1
     name: app
     ports:
     - containerPort: 80
-    resources: {}
-  dnsPolicy: ClusterFirst
-  restartPolicy: Never
-status: {}

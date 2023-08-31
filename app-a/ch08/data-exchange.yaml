@@ -4,14 +4,13 @@ metadata:
   name: data-exchange
 spec:
   containers:
-  - image: busybox
+  - image: busybox:1.36.1
     name: main-app
     command: ['sh', '-c', 'counter=1; while true; do touch "/var/app/data/$counter-data.txt"; counter=$((counter+1)); sleep 30; done']
     volumeMounts:
     - name: data-dir
       mountPath: "/var/app/data"
-    resources: {}
-  - image: busybox
+  - image: busybox:1.36.1
     name: sidecar
     command: ['sh', '-c', 'while true; do ls -d /var/app/data/*-data.txt | wc -l; sleep 30; done']
     volumeMounts:
@@ -20,6 +19,3 @@ spec:
   volumes:
   - name: data-dir
     emptyDir: {}
-  dnsPolicy: ClusterFirst
-  restartPolicy: Never
-status: {}
