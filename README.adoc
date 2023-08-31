@@ -11,11 +11,11 @@ This study guide walks you through all the topics you need to fully prepare for 
 == Source Code
 
 1. Exam Details and Resources
-2. https://github.com/bmuschko/ckad-study-guide/tree/master/ch02[Core Concepts]
-3. https://github.com/bmuschko/ckad-study-guide/tree/master/ch03[Configuration]
-4. https://github.com/bmuschko/ckad-study-guide/tree/master/ch04[Multi-Container Pods]
-5. https://github.com/bmuschko/ckad-study-guide/tree/master/ch05[Observability]
-6. https://github.com/bmuschko/ckad-study-guide/tree/master/ch06[Pod Design]
-7. https://github.com/bmuschko/ckad-study-guide/tree/master/ch07[Services & Networking]
-8. https://github.com/bmuschko/ckad-study-guide/tree/master/ch08[State Persistence]
+2. https://github.com/bmuschko/ckad-study-guide/tree/master/ch04[Container Fundamentals]
+3. https://github.com/bmuschko/ckad-study-guide/tree/master/ch05[Pods and Namespaces]
+4. https://github.com/bmuschko/ckad-study-guide/tree/master/ch06[Jobs and CronJobs]
+5. https://github.com/bmuschko/ckad-study-guide/tree/master/ch07[Volumes]
+6. https://github.com/bmuschko/ckad-study-guide/tree/master/ch08[Multi-Container Pods]
+7. https://github.com/bmuschko/ckad-study-guide/tree/master/ch09[Labels and Annotations]
+8. https://github.com/bmuschko/ckad-study-guide/tree/master/ch10[Deployments]
 9. https://github.com/bmuschko/ckad-study-guide/tree/master/app-a[Appendix A: Answers to Review Questions]
