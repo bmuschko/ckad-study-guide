@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-server-green
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      type: green
+  template:
+    metadata:
+      labels:
+        type: green
+    spec:
+      containers:
+      - name: httpd
+        image: httpd:2.4.57-alpine
+        ports:
+        - containerPort: 80
+          protocol: TCP
