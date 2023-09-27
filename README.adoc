@@ -2,20 +2,24 @@
 
 ++++
 <br>
-<img align="left" role="left" src="https://learning.oreilly.com/library/cover/9781492083726/" width="110" alt="Book Cover" />
+<img align="left" role="left" src="https://learning.oreilly.com/covers/urn:orm:book:9781098152857/400w/" width="110" alt="Book Cover" />
 ++++
-Source code for book https://learning.oreilly.com/library/view/certified-kubernetes-application/9781492083726/["Certified Kubernetes Application Developer (CKAD) Study Guide"], In-Depth Guidance and Practice, published by Benjamin Muschko for O'Reilly Media Inc.
+Source code for book https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/["Certified Kubernetes Application Developer (CKAD) Study Guide, 2nd Edition"], In-Depth Guidance and Practice, published by Benjamin Muschko for O'Reilly Media Inc.
 
-This study guide walks you through all the topics you need to fully prepare for the exam covering Kubernetes 1.27. Author Benjamin Muschko also shares his personal experience with preparing for all aspects of the exam.
+This study guide walks you through all the topics you need to fully prepare for the exam covering Kubernetes 1.28. Author Benjamin Muschko also shares his personal experience with preparing for all aspects of the exam.
 
 == Source Code
 
 1. Exam Details and Resources
-2. https://github.com/bmuschko/ckad-study-guide/tree/master/ch04[Container Fundamentals]
-3. https://github.com/bmuschko/ckad-study-guide/tree/master/ch05[Pods and Namespaces]
-4. https://github.com/bmuschko/ckad-study-guide/tree/master/ch06[Jobs and CronJobs]
-5. https://github.com/bmuschko/ckad-study-guide/tree/master/ch07[Volumes]
-6. https://github.com/bmuschko/ckad-study-guide/tree/master/ch08[Multi-Container Pods]
-7. https://github.com/bmuschko/ckad-study-guide/tree/master/ch09[Labels and Annotations]
-8. https://github.com/bmuschko/ckad-study-guide/tree/master/ch10[Deployments]
-9. https://github.com/bmuschko/ckad-study-guide/tree/master/app-a[Appendix A: Answers to Review Questions]
+2. Kubernetes in a Nutshell
+3. https://github.com/bmuschko/ckad-study-guide/tree/master/ch03[Interacting with Kubernetes]
+4. https://github.com/bmuschko/ckad-study-guide/tree/master/ch04[Container Fundamentals]
+5. https://github.com/bmuschko/ckad-study-guide/tree/master/ch05[Pods and Namespaces]
+6. https://github.com/bmuschko/ckad-study-guide/tree/master/ch06[Jobs and CronJobs]
+7. https://github.com/bmuschko/ckad-study-guide/tree/master/ch07[Volumes]
+8. https://github.com/bmuschko/ckad-study-guide/tree/master/ch08[Multi-Container Pods]
+9. https://github.com/bmuschko/ckad-study-guide/tree/master/ch09[Labels and Annotations]
+10. https://github.com/bmuschko/ckad-study-guide/tree/master/ch10[Deployments]
+11. https://github.com/bmuschko/ckad-study-guide/tree/master/ch11[Deployments Strategies]
+12. https://github.com/bmuschko/ckad-study-guide/tree/master/ch12[Helm]
+13. https://github.com/bmuschko/ckad-study-guide/tree/master/app-a[Appendix A: Answers to Review Questions]
