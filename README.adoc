@@ -20,6 +20,6 @@ This study guide walks you through all the topics you need to fully prepare for 
 8. https://github.com/bmuschko/ckad-study-guide/tree/master/ch08[Multi-Container Pods]
 9. https://github.com/bmuschko/ckad-study-guide/tree/master/ch09[Labels and Annotations]
 10. https://github.com/bmuschko/ckad-study-guide/tree/master/ch10[Deployments]
-11. https://github.com/bmuschko/ckad-study-guide/tree/master/ch11[Deployments Strategies]
+11. https://github.com/bmuschko/ckad-study-guide/tree/master/ch11[Deployment Strategies]
 12. https://github.com/bmuschko/ckad-study-guide/tree/master/ch12[Helm]
 13. https://github.com/bmuschko/ckad-study-guide/tree/master/app-a[Appendix A: Answers to Review Questions]
