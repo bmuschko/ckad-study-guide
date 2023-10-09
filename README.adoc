@@ -24,7 +24,7 @@ This study guide walks you through all the topics you need to fully prepare for 
 . Application Deployment
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch10[Deployments]
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch11[Deployment Strategies]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch12[Helm]
+* Helm
 . Application Observability and Maintenance
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch13[API Deprecations]
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch14[Container Probes]
