@@ -22,4 +22,7 @@ This study guide walks you through all the topics you need to fully prepare for 
 10. https://github.com/bmuschko/ckad-study-guide/tree/master/ch10[Deployments]
 11. https://github.com/bmuschko/ckad-study-guide/tree/master/ch11[Deployment Strategies]
 12. https://github.com/bmuschko/ckad-study-guide/tree/master/ch12[Helm]
-13. https://github.com/bmuschko/ckad-study-guide/tree/master/app-a[Appendix A: Answers to Review Questions]
+13. https://github.com/bmuschko/ckad-study-guide/tree/master/ch13[API Deprecations]
+14. https://github.com/bmuschko/ckad-study-guide/tree/master/ch14[Container Probes]
+15. https://github.com/bmuschko/ckad-study-guide/tree/master/app-a[Appendix A: Answers to Review Questions]
+16. https://github.com/bmuschko/ckad-study-guide/tree/master/app-b[Appendix B: Exam Review Guide]
