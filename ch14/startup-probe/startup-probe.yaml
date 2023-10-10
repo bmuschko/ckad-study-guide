@@ -11,3 +11,6 @@ spec:
         port: 80
       initialDelaySeconds: 3
       periodSeconds: 15
+    livenessProbe:
+      tcpSocket:
+        port: 80
