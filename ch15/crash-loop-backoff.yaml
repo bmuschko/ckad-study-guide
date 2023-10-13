@@ -5,5 +5,5 @@ metadata:
 spec:
   containers:
   - name: test-container
-    image: busybox
+    image: busybox:1.36.1
     command: ["/bin/sh", "-c", "unknown"]
