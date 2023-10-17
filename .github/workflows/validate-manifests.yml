@@ -14,4 +14,4 @@ jobs:
             tar xf kubeconform-linux-amd64.tar.gz
             sudo cp kubeconform /usr/local/bin
       - name: Validate Against Kubernetes Schema
-        run: kubeconform -kubernetes-version=1.28.2 -ignore-filename-pattern=.github/workflows -ignore-filename-pattern=.json$ -ignore-filename-pattern=deprecated -summary .
+        run: kubeconform -kubernetes-version=1.28.2 -s https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master -ignore-filename-pattern=.github/workflows -ignore-filename-pattern=.json$ -ignore-filename-pattern=deprecated -summary .
