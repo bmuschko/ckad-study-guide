@@ -8,7 +8,9 @@ Source code for book https://learning.oreilly.com/library/view/certified-kuberne
 
 This study guide walks you through all the topics you need to fully prepare for the exam covering Kubernetes 1.28. Author Benjamin Muschko also shares his personal experience with preparing for all aspects of the exam.
 
-== Source Code
+> **_NOTE:_** The source code for the 1st edition of the book is available [here](https://github.com/bmuschko/ckad-study-guide/tree/1st-edition).
+
+== Source Code By Chapters
 
 . Introduction
 * Exam Details and Resources
