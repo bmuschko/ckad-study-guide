@@ -28,6 +28,9 @@ This study guide walks you through all the topics you need to fully prepare for 
 . Application Observability and Maintenance
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch13[API Deprecations]
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch14[Container Probes]
+* https://github.com/bmuschko/ckad-study-guide/tree/master/ch15[Troubleshooting Pods and Containers]
+* https://github.com/bmuschko/ckad-study-guide/tree/master/ch16[Custom Resource Definitions (CRDs)]
+* https://github.com/bmuschko/ckad-study-guide/tree/master/ch17[Authentication, Authorization, and Admission Control]
 . Appendixes
 * https://github.com/bmuschko/ckad-study-guide/tree/master/app-a[Appendix A: Answers to Review Questions]
 * https://github.com/bmuschko/ckad-study-guide/tree/master/app-b[Appendix B: Exam Review Guide]
