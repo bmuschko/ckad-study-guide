@@ -34,6 +34,7 @@ This study guide walks you through all the topics you need to fully prepare for 
 . Application Environment, Configuration and Security
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch16[Custom Resource Definitions (CRDs)]
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch17[Authentication, Authorization, and Admission Control]
+* https://github.com/bmuschko/ckad-study-guide/tree/master/ch18[Resource Requirements, Limits, and Quotas]
 . Appendixes
 * https://github.com/bmuschko/ckad-study-guide/tree/master/app-a[Appendix A: Answers to Review Questions]
 * Appendix B: Exam Review Guide
