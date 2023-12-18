@@ -36,6 +36,7 @@ This study guide walks you through all the topics you need to fully prepare for 
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch17[Authentication, Authorization, and Admission Control]
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch18[Resource Requirements, Limits, and Quotas]
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch19[ConfigMaps and Secrets]
+* https://github.com/bmuschko/ckad-study-guide/tree/master/ch20[Security Contexts]
 . Appendixes
 * https://github.com/bmuschko/ckad-study-guide/tree/master/app-a[Appendix A: Answers to Review Questions]
 * Appendix B: Exam Review Guide
