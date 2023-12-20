@@ -13,8 +13,7 @@ spec:
         memory: "256Mi"
         cpu: "1"
       limits:
-        memory: "512Mi"
-        cpu: "2"
+        memory: "256Mi"
   - name: ambassador
     image: bmuschko/nodejs-ambassador:1.0.0
     ports:
@@ -24,5 +23,4 @@ spec:
         memory: "64Mi"
         cpu: "250m"
       limits:
-        memory: "128Mi"
-        cpu: "500m"
+        memory: "64Mi"
