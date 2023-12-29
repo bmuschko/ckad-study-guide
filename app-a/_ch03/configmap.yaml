@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: ext-service-configmap
-data:
-  api_endpoint: https://myapp.com/api
-  username: bot
