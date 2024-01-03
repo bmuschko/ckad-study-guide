@@ -37,6 +37,9 @@ This study guide walks you through all the topics you need to fully prepare for 
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch18[Resource Requirements, Limits, and Quotas]
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch19[ConfigMaps and Secrets]
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch20[Security Contexts]
+. Services & Networking
+* https://github.com/bmuschko/ckad-study-guide/tree/master/ch21[Services]
+* https://github.com/bmuschko/ckad-study-guide/tree/master/ch22[Ingresses]
 . Appendixes
 * https://github.com/bmuschko/ckad-study-guide/tree/master/app-a[Appendix A: Answers to Review Questions]
 * Appendix B: Exam Review Guide
