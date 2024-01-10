@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: allow-egress-networkpolicy
+  name: app-stack
   namespace: end-user
 spec:
   podSelector:
