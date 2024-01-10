@@ -1,0 +1,9 @@
+apiVersion: stable.bmuschko.com/v1
+kind: SmokeTest
+metadata:
+  name: backend-smoke-test
+spec:
+  service: backend
+  path: /health
+  timeout: 600
+  retries: 3

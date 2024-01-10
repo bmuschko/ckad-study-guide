@@ -1,4 +1,4 @@
-apiVersion: batch/v1beta1
+apiVersion: batch/v1
 kind: CronJob
 metadata:
   name: current-date
@@ -12,7 +12,7 @@ spec:
         spec:
           containers:
           - name: current-date
-            image: nginx
+            image: nginx:1.25.1
             args:
             - /bin/sh
             - -c

@@ -1,21 +1,46 @@
-= Certified Kubernetes Application Developer (CKAD) Study Guide
+= Certified Kubernetes Application Developer (CKAD) Study Guide, 2nd Edition
 
 ++++
 <br>
-<img align="left" role="left" src="https://learning.oreilly.com/library/cover/9781492083726/" width="110" alt="Book Cover" />
+<img align="left" role="left" src="https://learning.oreilly.com/covers/urn:orm:book:9781098152857/400w/" width="110" alt="Book Cover" />
 ++++
-Source code for book https://learning.oreilly.com/library/view/certified-kubernetes-application/9781492083726/["Certified Kubernetes Application Developer (CKAD) Study Guide"], In-Depth Guidance and Practice, published by Benjamin Muschko for O'Reilly Media Inc.
+Source code for book https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/["Certified Kubernetes Application Developer (CKAD) Study Guide, 2nd Edition"], In-Depth Guidance and Practice, published by Benjamin Muschko for O'Reilly Media Inc.
 
-This study guide walks you through all the topics you need to fully prepare for the exam covering Kubernetes 1.19. Author Benjamin Muschko also shares his personal experience with preparing for all aspects of the exam.
+This study guide walks you through all the topics you need to fully prepare for the exam covering Kubernetes 1.28. Author Benjamin Muschko also shares his personal experience with preparing for all aspects of the exam.
 
-== Source Code
+> **_NOTE:_** The source code for the 1st edition of the book is available https://github.com/bmuschko/ckad-study-guide/tree/1st-edition[here].
 
-1. Exam Details and Resources
-2. link:./ch02[Core Concepts]
-3. link:./ch03[Configuration]
-4. link:./ch04[Multi-Container Pods]
-5. link:./ch05[Observability]
-6. link:./ch06[Pod Design]
-7. link:./ch07[Services & Networking]
-8. link:./ch08[State Persistence]
-9. link:./app-a[Appendix A: Answers to Review Questions]
+== Source Code By Chapters
+
+. Introduction
+* Exam Details and Resources
+* Kubernetes in a Nutshell
+* link:./ch03[Interacting with Kubernetes]
+. Application Design and Build
+* link:./ch04[Container Fundamentals]
+* link:./ch05[Pods and Namespaces]
+* link:./ch06[Jobs and CronJobs]
+* link:./ch07[Volumes]
+* link:./ch08[Multi-Container Pods]
+* link:./ch09[Labels and Annotations]
+. Application Deployment
+* link:./ch10[Deployments]
+* link:./ch11[Deployment Strategies]
+* Helm
+. Application Observability and Maintenance
+* link:./ch13[API Deprecations]
+* link:./ch14[Container Probes]
+* link:./ch15[Troubleshooting Pods and Containers]
+. Application Environment, Configuration and Security
+* link:./ch16[Custom Resource Definitions (CRDs)]
+* link:./ch17[Authentication, Authorization, and Admission Control]
+* link:./ch18[Resource Requirements, Limits, and Quotas]
+* link:./ch19[ConfigMaps and Secrets]
+* link:./ch20[Security Contexts]
+. Services & Networking
+* link:./ch21[Services]
+* link:./ch22[Ingresses]
+* link:./ch23[Network Policies]
+. Appendixes
+* link:./app-a[Appendix A: Answers to Review Questions]
+* Appendix B: Exam Review Guide

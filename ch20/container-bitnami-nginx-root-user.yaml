@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bitnami-ngnix-non-root
+spec:
+  securityContext:
+    runAsNonRoot: true
+  containers:
+  - image: bitnami/nginx:1.25.3
+    name: secured-container

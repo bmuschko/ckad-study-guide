@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-server-blue
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      type: blue
+  template:
+    metadata:
+      labels:
+        type: blue
+    spec:
+      containers:
+      - name: httpd
+        image: httpd:2.4.23-alpine
+        ports:
+        - containerPort: 80
+          protocol: TCP

@@ -4,14 +4,11 @@ on: [push, pull_request]
 jobs:
   build:
     name: Validate Manifests
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
-      - name: Set up Kubeval
-        run: |
-            wget https://github.com/instrumenta/kubeval/releases/latest/download/kubeval-linux-amd64.tar.gz
-            tar xf kubeval-linux-amd64.tar.gz
-            sudo cp kubeval /usr/local/bin
-      - name: Validate Against Kubernetes 1.19.16
-        run: kubeval -v 1.19.16 -s https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master -d . -i .github/workflows
+        uses: actions/checkout@v4
+      - name: Set up Kubeconform
+        uses: bmuschko/setup-kubeconform@v1
+      - name: Validate Against Kubernetes Schema
+        run: kubeconform -kubernetes-version=1.28.3 -ignore-filename-pattern=.github/workflows -ignore-filename-pattern=.json$ -ignore-filename-pattern=deprecated -ignore-filename-pattern=ch16 -ignore-filename-pattern=application.yaml -summary .

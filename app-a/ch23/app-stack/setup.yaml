@@ -1,0 +1,41 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: end-user
+  labels:
+    access: outside
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: internal
+  labels:
+    access: inside
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: frontend
+  namespace: end-user
+  labels:
+    app: frontend
+spec:
+  containers:
+  - name: busybox
+    image: busybox:1.36.1
+    command: ["sh", "-c", "sleep 1h"]
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: backend
+  namespace: internal
+  labels:
+    app: backend
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.25.3-alpine
+    ports:
+    - containerPort: 80
+      protocol: TCP

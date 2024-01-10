@@ -1,28 +1,22 @@
-apiVersion: batch/v1beta1
+apiVersion: batch/v1
 kind: CronJob
 metadata:
-  creationTimestamp: null
   name: google-ping
 spec:
   successfulJobsHistoryLimit: 7
   concurrencyPolicy: Forbid
   jobTemplate:
     metadata:
-      creationTimestamp: null
       name: google-ping
     spec:
       template:
-        metadata:
-          creationTimestamp: null
         spec:
           containers:
           - command:
             - /bin/sh
             - -c
             - curl google.com
-            image: nginx
+            image: nginx:1.25.1
             name: google-ping
-            resources: {}
           restartPolicy: OnFailure
   schedule: '*/2 * * * *'
-status: {}
