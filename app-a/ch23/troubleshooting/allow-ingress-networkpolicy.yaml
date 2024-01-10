@@ -8,12 +8,12 @@ spec:
     matchLabels:
       app: backend
   policyTypes:
-    - Ingress
+  - Ingress
   ingress:
     - from:
-        - namespaceSelector:
-            matchLabels:
-              role: consumer
+      - namespaceSelector:
+          matchLabels:
+            role: consumer
       ports:
-        - protocol: TCP
-          port: 80
+      - protocol: TCP
+        port: 80

@@ -8,17 +8,17 @@ spec:
     matchLabels:
       app: frontend
   policyTypes:
-    - Egress
+  - Egress
   egress:
-    - to:
-        - podSelector:
-            matchLabels:
-              app: backend
-          namespaceSelector:
-            matchLabels:
-              access: inside
+  - to:
+    - podSelector:
+        matchLabels:
+          app: backend
+      namespaceSelector:
+        matchLabels:
+          access: inside
       ports:
-        - protocol: TCP
-          port: 4423
-        - protocol: TCP
-          port: 5660
+      - protocol: TCP
+        port: 4423
+      - protocol: TCP
+        port: 5660
