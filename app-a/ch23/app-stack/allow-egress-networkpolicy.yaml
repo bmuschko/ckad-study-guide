@@ -17,8 +17,6 @@ spec:
       namespaceSelector:
         matchLabels:
           access: inside
-      ports:
-      - protocol: TCP
-        port: 4423
-      - protocol: TCP
-        port: 5660
+    ports:
+    - protocol: TCP
+      port: 80
