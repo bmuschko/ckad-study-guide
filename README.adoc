@@ -17,30 +17,30 @@ This study guide walks you through all the topics you need to fully prepare for 
 * Kubernetes in a Nutshell
 * link:./ch03[Interacting with Kubernetes]
 . Application Design and Build
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch04[Container Fundamentals]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch05[Pods and Namespaces]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch06[Jobs and CronJobs]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch07[Volumes]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch08[Multi-Container Pods]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch09[Labels and Annotations]
+* link:./ch04[Container Fundamentals]
+* link:./ch05[Pods and Namespaces]
+* link:./ch06[Jobs and CronJobs]
+* link:./ch07[Volumes]
+* link:./ch08[Multi-Container Pods]
+* link:./ch09[Labels and Annotations]
 . Application Deployment
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch10[Deployments]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch11[Deployment Strategies]
+* link:./ch10[Deployments]
+* link:./ch11[Deployment Strategies]
 * Helm
 . Application Observability and Maintenance
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch13[API Deprecations]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch14[Container Probes]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch15[Troubleshooting Pods and Containers]
+* link:./ch13[API Deprecations]
+* link:./ch14[Container Probes]
+* link:./ch15[Troubleshooting Pods and Containers]
 . Application Environment, Configuration and Security
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch16[Custom Resource Definitions (CRDs)]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch17[Authentication, Authorization, and Admission Control]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch18[Resource Requirements, Limits, and Quotas]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch19[ConfigMaps and Secrets]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch20[Security Contexts]
+* link:./ch16[Custom Resource Definitions (CRDs)]
+* link:./ch17[Authentication, Authorization, and Admission Control]
+* link:./ch18[Resource Requirements, Limits, and Quotas]
+* link:./ch19[ConfigMaps and Secrets]
+* link:./ch20[Security Contexts]
 . Services & Networking
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch21[Services]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch22[Ingresses]
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch23[Network Policies]
+* link:./ch21[Services]
+* link:./ch22[Ingresses]
+* link:./ch23[Network Policies]
 . Appendixes
-* https://github.com/bmuschko/ckad-study-guide/tree/master/app-a[Appendix A: Answers to Review Questions]
+* link:./app-a[Appendix A: Answers to Review Questions]
 * Appendix B: Exam Review Guide
