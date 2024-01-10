@@ -15,7 +15,7 @@ This study guide walks you through all the topics you need to fully prepare for 
 . Introduction
 * Exam Details and Resources
 * Kubernetes in a Nutshell
-* https://github.com/bmuschko/ckad-study-guide/tree/master/ch03[Interacting with Kubernetes]
+* ./ch03[Interacting with Kubernetes]
 . Application Design and Build
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch04[Container Fundamentals]
 * https://github.com/bmuschko/ckad-study-guide/tree/master/ch05[Pods and Namespaces]
