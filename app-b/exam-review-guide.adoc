@@ -1,0 +1,59 @@
+== Exam Review Guide
+
+This book covers all objectives relevant to the exam and more. The tables below map the exam objective to the corresponding book chapter. Furthermore, you will also find a reference to the Kubernetes documentation. Some foundational objectives important to the exam, e.g. https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch05.html[Pods and namespaces], have not been listed explicitly in the curriculum, however, the book does cover them. You can use the mapping as a reference to review specific objectives in more detail.
+
+=== Application Design and Build
+
+[options="header"]
+|=======
+|Exam Objective                                          |Chapter           |Reference Documentation |Tutorial
+|Define, build and modify container images      |https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch04.html[Containers]    |https://kubernetes.io/docs/concepts/containers/[Containers] |N/A
+|Understand Jobs and CronJobs                   |https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch06.html[Jobs and CronJobs] |https://kubernetes.io/docs/concepts/workloads/controllers/job/[Job], https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/[CronJob] |https://kubernetes.io/docs/tasks/job/indexed-parallel-processing-static/[Indexed Job for Parallel Processing with Static Work Assignment], https://kubernetes.io/docs/tasks/job/automated-tasks-with-cron-jobs/[Running Automated Tasks with a CronJob]
+|Understand multi-container Pod design patterns |https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch08.html[Multi-Container Pods] |https://kubernetes.io/docs/concepts/workloads/pods/init-containers/[Init Containers], https://kubernetes.io/docs/concepts/workloads/pods/#how-pods-manage-multiple-containers[How Pods manage multiple containers] |N/A
+|Utilize persistent and ephemeral volumes       |https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch07.html[Volumes] |https://kubernetes.io/docs/concepts/storage/ephemeral-volumes/[Ephemeral Volumes], https://kubernetes.io/docs/concepts/storage/persistent-volumes/[Persistent Volumes], https://kubernetes.io/docs/concepts/storage/storage-classes/[Storage Classes]|N/A
+|=======
+
+=== Application Deployment
+
+[options="header"]
+|=======
+|Exam Objective                                          |Chapter           |Reference Documentation |Tutorial
+|Use Kubernetes primitives to implement common deployment strategies |https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch11.html[Deployment Strategies] |https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#strategy[Deployment Spec Strategy], https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/#canary-deployments[Canary Deployment] |https://kubernetes.io/blog/2018/04/30/zero-downtime-deployment-kubernetes-jenkins/[Zero-downtime Deployment in Kubernetes with Jenkins]
+|Understand Deployments and how to perform rolling updates |https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch10.html[Deployments] |https://kubernetes.io/docs/concepts/workloads/controllers/deployment/[Deployments]| https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/[Using kubectl to Create a Deployment], https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/[Performing a Rolling Update], https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/[Running Multiple Instances of Your App]
+|Use the Helm package manager to deploy existing packages |https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch12.html[Helm] |https://helm.sh/docs/[Helm Project]|https://kubernetes.io/blog/2016/10/helm-charts-making-it-simple-to-package-and-deploy-apps-on-kubernetes/[Helm Charts: making it simple to package and deploy common applications on Kubernetes]
+|=======
+
+=== Application Observability and Maintenance
+
+[options="header"]
+|=======
+|Exam Objective                                          |Chapter           |Reference Documentation |Tutorial
+|Understand API deprecations |https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch13.html[API Deprecations] |https://kubernetes.io/docs/reference/using-api/deprecation-policy/[Kubernetes Deprecation Policy], https://kubernetes.io/docs/reference/using-api/deprecation-guide/[Deprecated API Migration Guide] |N/A
+|Implement probes and health checks |https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch14.html[Container Probes] |https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes[Container probes] |https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/[Configure Liveness, Readiness and Startup Probes]
+|Use provided tools to monitor Kubernetes applications|https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch15.html[Troubleshooting Pods and Containers] |https://github.com/kubernetes-sigs/metrics-server[Metrics Server Project]|https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/#metrics-server[Metrics Server]
+|Utilize container logs |https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch15.html[Troubleshooting Pods and Containers] |https://kubernetes.io/docs/reference/kubectl/cheatsheet/#interacting-with-running-pods[Interacting with running Pods] |https://kubernetes.io/docs/tasks/debug/debug-application/debug-running-pod/#examine-pod-logs[Examining Pod Logs]
+|Debugging in Kubernetes |https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch15.html[Troubleshooting Pods and Containers] |N/A |https://kubernetes.io/docs/tasks/debug/debug-application/[Troubleshooting Applications], https://kubernetes.io/docs/tasks/debug/debug-application/debug-running-pod/[Debug Running Pods], https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/[Debug Pods]
+|=======
+
+=== Application Environment, Configuration and Security
+
+[options="header"]
+|=======
+|Exam Objective                                          |Chapter           |Reference Documentation |Tutorial
+|Discover and use resources that extend Kubernetes (CRD) |Custom Resource Definitions (CRDs) |https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/[Custom Resources] |https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/[Use Custom Resources]
+|Understand authentication, authorization and admission control |Authentication, Authorization, and Admission Control |https://kubernetes.io/docs/concepts/security/controlling-access/[Controlling Access to the Kubernetes API], https://kubernetes.io/docs/reference/access-authn-authz/authentication/[Authenticating], https://kubernetes.io/docs/reference/access-authn-authz/rbac/[Using RBAC Authorization], https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/[Admission Controllers Reference] |N/A |Understand and defining resource requirements, limits and quotas |Resource Requirements, Limits, and Quotas. |https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/[Resource Management for Pods and Containers], https://kubernetes.io/docs/concepts/policy/limit-range/[Limit Ranges], https://kubernetes.io/docs/concepts/policy/resource-quotas/[Resource Quotas] |N/A
+|Understand ConfigMaps |ConfigMaps and Secrets |https://kubernetes.io/docs/concepts/configuration/configmap/[ConfigMaps] |https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/[Configure a Pod to Use a ConfigMap]
+|Create & consume Secrets |ConfigMaps and Secrets |https://kubernetes.io/docs/concepts/configuration/secret/[Secrets] | https://kubernetes.io/docs/tasks/configmap-secret/managing-secret-using-kubectl/[Managing Secrets using kubectl], https://kubernetes.io/docs/tasks/configmap-secret/managing-secret-using-config-file/[Managing Secrets using Configuration File]
+|Understand ServiceAccounts |Authentication, Authorization, and Admission Control |https://kubernetes.io/docs/concepts/security/service-accounts/[Service Accounts], https://kubernetes.io/docs/reference/access-authn-authz/rbac/#service-account-permissions[ServiceAccount permissions] |https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/[Configure Service Accounts for Pods]
+|Understand SecurityContext |Security Contexts |N/A |https://kubernetes.io/docs/tasks/configure-pod-container/security-context/[Configure a Security Context for a Pod or Container]
+|=======
+
+=== Services & Networking
+
+[options="header"]
+|=======
+|Exam Objective                                          |Chapter           |Reference Documentation |Tutorial
+|Demonstrate basic understanding of NetworkPolicies |Network Policies |https://kubernetes.io/docs/concepts/services-networking/network-policies/[Network Policies] |https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/[Declare Network Policy]
+|Provide and troubleshoot access to applications via services |Security Contexts |https://kubernetes.io/docs/concepts/services-networking/service/[Service], https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/[DNS for Services and Pods] |https://kubernetes.io/docs/tutorials/services/connect-applications-service/[Connecting Applications with Services], https://kubernetes.io/docs/tasks/debug/debug-application/debug-service/[Debug Services]
+|Use Ingress rules to expose applications |Ingresses |https://kubernetes.io/docs/concepts/services-networking/ingress/[Ingress], https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/[Ingress Controllers] |https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/[Set up Ingress on Minikube with the NGINX Ingress Controller]
+|=======
