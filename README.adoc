@@ -44,4 +44,3 @@ This study guide walks you through all the topics you need to fully prepare for 
 . Appendixes
 * link:./app-a[Appendix A: Answers to Review Questions]
 * link:./app-b/exam-review-guide.adoc[Appendix B: Exam Review Guide]
-* Appendix B: Exam Review Guide
