@@ -1,6 +1,6 @@
 == Exam Review Guide
 
-This book covers all objectives relevant to the exam and more. The tables below map the exam objective to the corresponding book chapter. Furthermore, you will also find a reference to the Kubernetes documentation. Some foundational objectives important to the exam, e.g. https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch05.html[Pods and namespaces], have not been listed explicitly in the curriculum, however, the book does cover them. You can use the mapping as a reference to review specific objectives in more detail.
+This book covers https://github.com/cncf/curriculum[all objectives relevant to the exam] and more. The tables below map the exam objective to the corresponding book chapter. Furthermore, you will also find a reference to the Kubernetes documentation. Some foundational objectives important to the exam, e.g. https://learning.oreilly.com/library/view/certified-kubernetes-application/9781098152857/ch05.html[Pods and namespaces], have not been listed explicitly in the curriculum, however, the book does cover them. You can use the mapping as a reference to review specific objectives in more detail.
 
 === Application Design and Build
 
