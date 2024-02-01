@@ -1,6 +1,6 @@
 # Building the Docker Image
 
-Run the following command to compile the code and build the JAR file.
+You will need to have a JDK 21 installed on your machine. Run the following command to compile the code and build the JAR file.
 
 ```
 $ ./mvnw package spring-boot:repackage
