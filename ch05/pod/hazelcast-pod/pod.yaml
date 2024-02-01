@@ -7,10 +7,10 @@ metadata:
     env: prod
 spec:
   containers:
-  - env:
+  - name: hazelcast
+    image: hazelcast/hazelcast:5.1.7
+    env:
     - name: DNS_DOMAIN
       value: cluster
-    image: hazelcast/hazelcast:5.1.7
-    name: hazelcast
     ports:
     - containerPort: 5701

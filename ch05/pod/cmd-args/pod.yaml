@@ -4,7 +4,7 @@ metadata:
   name: mypod
 spec:
   containers:
-  - command: ["/bin/sh"]
-    args: ["-c", "while true; do date; sleep 10; done"]
+  - name: mypod
     image: busybox:1.36.1
-    name: mypod
+    command: ["/bin/sh"]
+    args: ["-c", "while true; do date; sleep 10; done"]
