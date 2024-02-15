@@ -10,5 +10,5 @@ spec:
   - image: nginx:1.25.1
     name: nginx
     volumeMounts:
-    - mountPath: /var/logs
+    - mountPath: /var/log/nginx
       name: logs-volume
