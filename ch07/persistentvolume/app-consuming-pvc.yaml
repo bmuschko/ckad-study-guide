@@ -4,9 +4,9 @@ metadata:
   name: app-consuming-pvc
 spec:
   volumes:
-    - name: app-storage
-      persistentVolumeClaim:
-        claimName: db-pvc
+  - name: app-storage
+    persistentVolumeClaim:
+      claimName: db-pvc
   containers:
   - image: alpine:3.18.2
     name: app
