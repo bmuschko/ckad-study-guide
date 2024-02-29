@@ -7,6 +7,6 @@ subjects:
 - kind: ServiceAccount
   name: sa-api
 roleRef:
-  kind: ClusterRole
-  name: list-pods-clusterrole
+  kind: Role
+  name: list-pods-role
   apiGroup: rbac.authorization.k8s.io
