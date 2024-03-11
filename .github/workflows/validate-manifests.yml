@@ -18,4 +18,4 @@ jobs:
       - name: Set up Kubeconform
         uses: bmuschko/setup-kubeconform@v1
       - name: Validate Against Kubernetes Schema
-        run: kubeconform -kubernetes-version=1.28.3 -ignore-filename-pattern=.github/workflows -ignore-filename-pattern=.json$ -ignore-filename-pattern=deprecated -ignore-filename-pattern=ch16 -ignore-filename-pattern=application.yaml -summary .
+        run: kubeconform -kubernetes-version=1.28.7 -ignore-filename-pattern=.github/workflows -ignore-filename-pattern=.json$ -ignore-filename-pattern=deprecated -ignore-filename-pattern=ch16 -ignore-filename-pattern=application.yaml -summary .
